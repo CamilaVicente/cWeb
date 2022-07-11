@@ -23,3 +23,4 @@ const { endereco: { logradouro , numero , cep }} = pessoa // acessando um objeto
 console.log( logradouro,numero , cep)
 
 const { conta: {ag , num}} = pessoa // tomar cuidado para não tentar acessar atributos que não existem dentro do objeto
+console.log(ag, num)
